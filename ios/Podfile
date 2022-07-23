@@ -10,7 +10,6 @@ target 'MyApp' do
     :path => config[:reactNativePath],
     :hermes_enabled => true,
     flipper_configuration: FlipperConfiguration.enabled,
-    new_arch_enabled: ENV['RCT_NEW_ARCH_ENABLED'] == '1'
   )
 
   target 'MyAppTests' do

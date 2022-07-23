@@ -60,9 +60,3 @@ static void InitializeFlipper(UIApplication *application) {
 }
 
 @end
-
-- (BOOL)concurrentRootEnabled
-{
-  // Switch this bool to turn on and off the concurrent root
-  return true;
-}
