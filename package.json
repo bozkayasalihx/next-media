@@ -101,5 +101,6 @@
             "organize-imports-cli",
             "prettier --write --ignore-unknown"
         ]
-    }
+    },
+    "packageManager": "yarn@3.2.2"
 }
